@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delegated</title>\
+    <style>
+        ul li:nth-child(even){
+            color: red;
+            font-size: 21px;
+        }
+        ul li:nth-child(odd){
+            font-size: 21px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ul id="parent_container">
+        <li class="item">Click here to remove this ONE</li>
+        <li class="item">Click here to remove this TWO`</li>
+        <li class="item">Click here to remove this THREE</li>
+        <li class="item">Click here to remove this FOUR</li>
+        <li class="item">Click here to remove this FIVE</li>
+    </ul>
+
+    <button id="addBtn">Add Item</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

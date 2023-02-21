@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubble</title>
+    <style>
+        body{
+            border: 2px solid red;
+            padding: 20px;
+            color: #fff;
+            font-size: 21px;
+        }
+        main{
+            border: 2px solid green;
+            background: #0652DD;
+            padding: 20px;
+        }
+        section{
+            border: 2px solid blue;
+            background: #9980FA;
+            padding: 20px;
+        }
+        ul{
+            border: 2px solid blueviolet;
+            padding: 20px;
+            background: #F79F1F;
+        }
+        li{
+            border: 2px solid red;
+            padding: 20px;
+            margin: 10px;
+            background: #ED4C67;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body id="Body">
+    <h1 style="color: #000;">See result in Console </h1>
+    <main id="Main">
+        <section id="Section">
+            <ul id="UL">
+                <li id="li_1">Click Here</li>
+                <li id="li_2">Stop propagation.</li>
+                <li id="li_3">Stop Immediate propagation.</li>
+                <li>Nesciunt, animi.</li>
+                <li>Laborum, dolores.</li>
+            </ul>
+        </section>
+    </main>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

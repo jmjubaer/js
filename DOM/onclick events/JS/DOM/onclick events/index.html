@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="document.body.style.backgroundColor = 'red'" >Red BG</button>
+    <button onclick="bgBlue()">Blue BG</button>
+    <button id="green_bg">Green BG</button>
+    <button id="purple_bg">Purple BG</button>
+    <button id="pink_bg">Pink BG</button>
+    <button id="orange_bg">Orange BG</button>
+
+    <h1 id="onClickField">This is by default heading</h1>
+    <button id="onClickBtn">Change Text</button>
+
+    <!-- Another approach  -->
+    <button onclick="changeText()">Change Text</button>
+<br><br>
+<br><br>
+    <h1 id="input_text">Click update button to update text from input field</h1>
+    <input type="text" id="input_field" required>
+    <button id="updateBtn" onclick="updateText()">Update</button><br><br>
+    <button onclick="one()">Jubaer</button>
+    <button onclick="two()">Rahat</button>
+    <button onclick="three()">Pinik</button>
+    <button onclick="four()">Love</button>
+    <button onclick="five()">Hate</button>
+
+
+    <script src="main.js"></script>
+    <script src="comment.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Background Color on Hover</title>
+	<style>
+		body {
+			background-color: #f1f1f1;
+		}
+		div {
+			padding: 50px;
+			margin: 50px;
+			border: 1px solid black;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div onmouseover="changeBgColor()">Hover over me!</div>
+
+	<script>
+		function changeBgColor() {
+			var randomColor = Math.floor(Math.random()*16777215).toString(16);
+			document.body.style.backgroundColor = "#" + randomColor;
+		}
+	</script>
+</body>
+</html>
