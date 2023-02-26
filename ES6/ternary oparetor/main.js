@@ -6,6 +6,6 @@ if(jm == "single"){
 }
 
 
-// ternary operator
+// ternary operato,,,,,,,
 
-(jm == "single") ? console.log("sala fokir") : console.log("goooooood job");
+(jm == "single") ? console.log("sala fokira") : console.log("goooooood job");
